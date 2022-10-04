@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+}
+.container
+{
+    width: 750px;
+    display: flex;
+    background-color: #eee;
+}
+
+/* Sidebar */
+.sidebar
+{
+  width: 230px;
+  padding: 10px 20px;
+  background-color: #06283D;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+.profile
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.profile img 
+{
+    width: 150px;
+    height: 150px
+}
+.sidebar .contact { margin-bottom: 10px;}
+.sidebar .contact h2,
+.sidebar .education h2,
+.sidebar .skill h2
+{
+    margin-bottom: 10px;
+    border-bottom: 3px solid white;
+}
+.sidebar .education 
+{ 
+    margin-left: -2px;
+    margin-top: 20px;
+}
+.sidebar .detail-contact,
+.sidebar .detail-education,
+.sidebar .detail-skill
+{
+    margin-bottom: 5px;
+}
+.sidebar .education-history
+{
+    font-weight: 700;
+}
+.sidebar .skill {margin-top: 20px;}
+.sidebar .detail-skill ul li,
+.sidebar .detail-education ul li { margin-left: 15px;}
+/* End Sidebar */
+
+/* Main menu */
+main
+{
+    padding: 10px 20px;
+    flex-basis: 75%;
+}
+main header span 
+{ 
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+main .experience h2
+{
+    border-bottom: 3px solid rgba(51, 51, 51, 0.671);
+    margin-bottom: 14px;
+}
+main .introduction
+{
+    margin-top: 10px;
+    font-size: .85em;
+    margin-bottom: 20px;
+}
+main .introduction li {
+    margin-left: 17px;
+}
+main .experience p 
+{
+    font-size: .85em; 
+}
+main .sub-experience
+{
+    margin-bottom: 25px;
+}
+main .moto
+{
+    font-style: italic;
+    font-size: .85em; 
+}
