@@ -60,7 +60,7 @@ body
 .sidebar .education 
 { 
     margin-left: -2px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .sidebar .detail-contact,
 .sidebar .detail-education,
@@ -72,7 +72,7 @@ body
 {
     font-weight: 700;
 }
-.sidebar .skill {margin-top: 25px;}
+.sidebar .skill {margin-top: 20px;}
 /* End Sidebar */
 
 /* Main menu */
