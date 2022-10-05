@@ -56,6 +56,7 @@ body
     margin-bottom: 10px;
     border-bottom: 3px solid white;
 }
+.sidebar p { font-size: .85em;}
 .sidebar .education 
 { 
     margin-left: -2px;
@@ -65,15 +66,13 @@ body
 .sidebar .detail-education,
 .sidebar .detail-skill
 {
-    margin-bottom: 5px;
+    margin-bottom: 13px;
 }
 .sidebar .education-history
 {
     font-weight: 700;
 }
 .sidebar .skill {margin-top: 20px;}
-.sidebar .detail-skill ul li,
-.sidebar .detail-education ul li { margin-left: 15px;}
 /* End Sidebar */
 
 /* Main menu */
@@ -99,7 +98,7 @@ main .introduction
     margin-bottom: 20px;
 }
 main .introduction li {
-    margin-left: 17px;
+    margin-left: 19px;
 }
 main .experience p 
 {
